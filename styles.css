@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(#E6AF2E, #BAFF29);
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/170606122114-vietnam---travel-destination--shutterstock-168342398.jpg");
+    /*background-image: url("https://media1.giphy.com/media/gxfKm1qMkzWVYZoqAN/giphy.gif?cid=ecf05e47tfyas4qiocu0u15h1wqfjxnfizvyvxjr9brsrmxp&rid=giphy.gif&ct=g");*/
+    background-size: cover;
+    height: 550px;
+    font-family: 'Lora', serif;
+}
+
+h1, h2 {
+    margin-top: 70px;
+    padding: 0 3px;
+    color: #E6AF2E;
+    text-shadow: 0 0 1px black;
+    background: #BAFF29;
+    width: auto;
+    border-radius: 3px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+#cities-section {
+    font-family: 'EB Garamond', serif;
+}
+
+#cities {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+
+}
+
+.cities {
+    background: #E6EFE9;
+    margin: 5px 5px;
+    padding: 40px 5px 0 5px;
+    border-radius: 4px;
+    flex: 1 1 0;
+}
+.img-cities {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.img-cities:hover {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+h3, .cities-name, h4 {
+    color: #04773B;
+    text-shadow: 0 0 1px black;
+    font-weight: bold;
+}
+
+.cities-detail {
+    color: #058E3F;
+}
+
+#beachOrMountain {
+    display: flex;
+}
+
+.beachOrMountain {
+    height: 400px;
+    width: 350px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #058E3F;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    width: auto;
+    padding: 5px 10px;
+    border: 1px solid #BAFF29;
+    border-radius: 5px;
+}
+
+#cuisine {
+    background: linear-gradient(#4e5c41ab 1%,hsla(0,0%,44%,0)),url(https://media.urbanistnetwork.com/saigoneer/article-images/2019/Mar/19/VietnameseFood_SGRb.jpg) no-repeat 50%;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.suggest {
+    color:#E6EFE9;
+    text-shadow: 0 0 1px gray;
+    background-color: transparent;
+}
+
+#log-idea {
+    background-color: #E6AF2E;
+    color: black;
+    width: auto;
+}
